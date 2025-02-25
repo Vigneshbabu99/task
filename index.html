@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" >
+  <title>Price Page</title>
+  <script src="script.js"></script> 
+</head>
+<body>
+
+    <div class="container">
+        <div class="header_box">
+            <img src="media/Line.png"><h2>YAY! It's BOGO</h2><img src="media/Line.png">
+        </div>
+        
+        <div class="card" id="card1">
+            <input type="radio" name="unit" id="unit1" onclick="expandCard(1)">
+            <label for="unit1">1 Unit <span class="discount">10% Off</span></label>
+            <div class="price">$10.00 USD <span class="old-price">$24.00 USD</span></div>
+            <div class="expandable">
+                <table>
+                    <tr>
+                        <th colspan="2">Size</th>
+                        <th colspan="2">Colour</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Colour</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="card selected" id="card2" >
+            <input type="radio" name="unit" id="unit2" onclick="expandCard(2)" checked="true">
+            <label for="unit2">2 Unit <span class="discount">20% Off</span></label>
+            <span class="most-popular">MOST POPULAR</span>
+            <div class="price">$18.00 USD <span class="old-price">$24.00 USD</span></div>
+                <div class="expandable">
+                    <table>
+                        <tr>
+                            <th colspan="2">Size</th>
+                            <th colspan="2">Colour</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Red</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Colour</option>
+                                    <option>Blue</option>
+                                    <option>Green</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+        <div  class="card" id="card3">
+            <input type="radio" name="unit" id="unit3" onclick="expandCard(3)">
+            <label for="unit3">3 Unit <span class="discount">30% Off</span></label>
+            <div class="price">$24.00 USD <span class="old-price">$24.00 USD</span></div>
+            <div class="expandable">
+                <table>
+                    <tr>
+                        <th colspan="2">Size</th>
+                        <th colspan="2">Colour</th>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Colour</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="free-delivery">Free Delivery</div>
+        <div class="price totalprice">Total : $18.00 USD</div>
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+
+</body>
+</html> 
